@@ -2,9 +2,7 @@
 	box-sizing: border-box;
 	
 }
-
-/*@import url('https://fonts.googleapis.com/css?family=Yesteryear');*/
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 body{
 	background: lemonchiffon;
@@ -12,17 +10,34 @@ body{
 .navbar{
 	display: flex;
 	font-size: 60px;
-	font-weight: bold;
-	font-family: 'Satisfy', cursive;
+	font-weight: bolder;
+	font-family: 'Pacifico', cursive;
 	padding: 10px 20px;
-	color: powderblue;
+	color: lightpink;
 	background: #fff;
-	margin:20px 20px; 
+	
+	
 /*	justify-content: space-between; instead of margin-left:auto in navtoggle;
 */}
 .navbar a{
 	text-decoration: none;
+	color: lightpink;
+
+
+
+}
+.navlist li{
+	list-style: none;
+	background: #fff;
+	
+}
+.navlist  a{
+	
+	text-decoration: none;
 	color: powderblue;
+	font-size: 40px;
+	font-family: arial black;
+
 }
 .navtoggle{
 	margin-left: auto;
@@ -31,7 +46,7 @@ body{
 }
 
 .navlistcollapse{
-	display: none; /* dynamic js class*/
+	display: none; /* onclick adds n removes  class*/
 }
 
 
