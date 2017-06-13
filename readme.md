@@ -1,4 +1,4 @@
 # Portfolio website
 links to various projects that I have created
-##Features
+## Features
 --Collapsible nav bar
